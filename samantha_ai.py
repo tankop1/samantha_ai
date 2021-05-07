@@ -772,8 +772,8 @@ while AI_on:
 
             reminderBody = getReminder(text)
  
-            account_sid = 'ACa60e520b03a66ec7134bf7c81a15b2db' 
-            auth_token = '76c2d4d7c8b58afa118f533d9201119b' 
+            account_sid = #Get your own account sid through the Twilio website
+            auth_token = #Get your own account token through the Twilio website
             client = Client(account_sid, auth_token) 
             
             try:
